@@ -1,0 +1,83 @@
+/* === GENERAL SETTINGS === */
+body {
+  height: 100vh;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+nav {
+  display: flex;
+}
+
+small {
+  font-size: 13px;
+}
+
+/* === TOP NAVBAR === */
+
+.top-nav {
+  justify-content: flex-end;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.top-nav div {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav div:nth-of-type(1) {
+  margin: 0 7.5px 0 0;
+}
+
+.top-nav div:nth-of-type(1) a:hover {
+  text-decoration: underline;
+}
+
+.top-nav div:nth-of-type(2) {
+  margin: 0 0 0 7.5px;
+}
+
+.top-nav div:nth-of-type(2) a {
+  border-radius: 50%;
+  padding: 5px
+}
+
+.top-nav div:nth-of-type(2) a:hover {
+  background-color:#f2f2f2;
+}
+
+.top-nav a {
+  margin: 0 7.5px;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+.grid-icon svg {
+  fill: #5f6368;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+/* === MAIN CONTENT === */
+main {
+  text-align: center;
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+/* === FOOTER === */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background: #f2f2f2;
+  width: 100%;
+}
